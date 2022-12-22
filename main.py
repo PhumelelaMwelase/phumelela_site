@@ -1,10 +1,11 @@
 from flask import Flask, render_template, request
 from datetime import datetime as dt
 import smtplib
+import os
 
 site_email = "site.phumelela@gmail.com"
-password = "dtrtwoqmrusemjls"
-my_email = "pz.mwelase@gmail.com"
+password = os.environ.get("EMAIL_PASSWORD")
+my_email = os.environ.get("PRIVATE_EMAIL")
 
 x = dt.now()
 
