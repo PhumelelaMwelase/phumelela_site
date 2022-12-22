@@ -4,7 +4,7 @@ import smtplib
 import os
 
 site_email = "site.phumelela@gmail.com"
-password = os.environ.get("EMAIL_PASSWORD")
+password = os.environ.get("TOKEN")
 my_email = os.environ.get("PRIVATE_EMAIL")
 
 x = dt.now()
@@ -38,4 +38,4 @@ def receive_data():
 
 
 if __name__ == "__main__":
-    app.run(debug=True, port=7000)
+    app.run(debug=True)
