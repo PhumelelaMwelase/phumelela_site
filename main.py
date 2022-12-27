@@ -41,7 +41,7 @@ def receive_data():
 def projects():
     # Footer #
     year = x.year
-    return render_template("Projects.html", year=year)
+    return render_template("projects.html", year=year)
 
 if __name__ == "__main__":
     app.run(debug=True)
