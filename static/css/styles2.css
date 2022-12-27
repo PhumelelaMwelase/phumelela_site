@@ -1,0 +1,179 @@
+/* Setup */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* ^^^ Setup ^^^ */
+
+/* vvv Nav-Bar vvv */
+.navbar {
+  font-weight: 600;
+  width:100%;
+  text-align: left;
+  margin-right: 5%;
+}
+
+.nav-item {
+  padding-right: 15px;
+}
+
+.nav-item a:hover {
+
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transition: transform .8s;
+  transform: scale(1.2);
+}
+
+
+/* ^^^ Nav Bar */
+
+
+.guess {
+    padding: 5%;
+    text-align: center;
+    width: 1px;
+}
+
+#guess {
+    width=1px;
+}
+
+/* vvvv footer vvvv */
+/* ============================ */
+.footer-container {
+  position: relative;
+}
+
+#bottom-container {
+  text-align: center;
+}
+
+.image {
+  display: block;
+  height: 4rem;
+  padding: 10%;
+}
+
+.footer-logo {
+  height: 4rem;
+  padding: 5%;
+}
+
+.footer-logo:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transition: transform .5s;
+  transform: scale(1.5);
+}
+
+.footer-logo:not(:hover) {
+  -ms-transform: scale(1); /* IE 9 */
+  -webkit-transform: scale(1); /* Safari 3-8 */
+  transition: transform .3s;
+  transform: scale(1);
+}
+
+#end-logos {
+  padding-top: 2%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 5%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+
+#html-hover:hover .overlay {
+  opacity: 1;
+}
+
+#html-color {
+  position: absolute;
+}
+
+#html-color:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transition: transform .5s;
+  transform: scale(1.5);
+}
+
+#css-hover:hover .overlay {
+  opacity: 1;
+}
+
+#css-color {
+  position: absolute;
+}
+
+#css-color:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transition: transform .5s;
+  transform: scale(1.5);
+}
+
+#bootstrap-hover:hover .overlay {
+  opacity: 1;
+}
+
+#bootstrap-color {
+  position: absolute;
+}
+
+#bootstrap-color:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transition: transform .5s;
+  transform: scale(1.5);
+}
+
+#python-hover:hover .overlay {
+  opacity: 1;
+}
+
+#python-color {
+  position: absolute;
+}
+
+#python-color:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transition: transform .5s;
+  transform: scale(1.5);
+}
+
+#python-hover:not(:hover) {
+  -ms-transform: scale(1); /* IE 9 */
+  -webkit-transform: scale(1); /* Safari 3-8 */
+  transform: scale(1);
+  transition: transform .5s;
+}
+
+/* ============================ */
+/* ^^^^ footer ^^^^ */

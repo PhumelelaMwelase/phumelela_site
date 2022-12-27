@@ -37,5 +37,11 @@ def receive_data():
     return render_template("Phumelela Site.html", scroll='#contact_me_page')
 
 
+@app.route("/projects")
+def projects():
+    # Footer #
+    year = x.year
+    return render_template("Projects.html", year=year)
+
 if __name__ == "__main__":
     app.run(debug=True)
