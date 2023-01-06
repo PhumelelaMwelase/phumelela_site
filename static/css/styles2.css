@@ -44,7 +44,11 @@ body {
     width: 1px;
 }
 
-#guess {
+#guessnum {
+    width=1px;
+}
+
+#guessgeo {
     width=1px;
 }
 
